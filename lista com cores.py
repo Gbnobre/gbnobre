@@ -93,3 +93,6 @@ print('\033[036m')
 for numero2, item2 in enumerate(lista_nova):
     print(f'{numero2} {item2}')
 print('\033[0m')
+
+
+print('{}Olá, Mundo{}'.format('\033[4;34m', '\033[m'))
